@@ -10,6 +10,41 @@
 #
 #########################################################
 
+#si option --create
+if [ "$1" == "--create" ];then
+    echo " "
+    echo " notre option est --create "
+    echo "  "
+
+
+#si option --drop
+elif [ "$1" == "--drop" ];then
+
+    echo " "
+    echo " notre option est --create "
+    echo "  "
+#si option --infos
+elif [ "$1" == "--infos" ];then
+
+    echo " "
+    echo " notre option est --create "
+#si option --start
+elif [ "$1" == "--start" ];then
+
+    echo " "
+    echo " notre option est --create "
+    echo "  "
+#si option --ansible
+elif [ "$1" == "--ansible" ];then
+
+    echo " "
+    echo " notre option est --create "
+    echo "  "
+
+#si aucune option affichage aide
+else
+
+
 echo "
     Options:
             - --create: lancer des conteneurs
@@ -22,3 +57,5 @@ echo "
 
             - --ansible: déploiementn arborescene ansible
 "
+
+fi
